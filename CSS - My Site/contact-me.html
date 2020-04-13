@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="silhouette.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Sofia|Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+  <body class="contact-body">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+
+    <form action="mailto:tamtrajkova@gmail.com" method="post">
+      <label class="first-label" for="first-name">First Name:</label>
+      <input type="text" name="first-name" id="first-name" placeholder="Name..." required>
+      <label for="last-name">Last Name:</label>
+      <input type="text" name="last-name" id="last-name"placeholder="Last name...">
+      <label for="email">Your Email:</label>
+      <input type="email" name="email" placeholder="Email..." required>
+      <label for="textarea">Share your thoughts:</label>
+      <textarea name="text-area" rows="10" cols="50" placeholder="Type your message here..." required></textarea>
+
+
+<div class="radio-div">
+      <label class="radio-buttons" for="male">Male</label>
+      <input class="radio-buttons"  type="radio" name="genders" id="male">
+      <label class="radio-buttons"  for="female">Female</label>
+      <input class="radio-buttons"  type="radio" id="female" name="genders" />
+</div>
+
+<div class="checkbox-div">
+      <input  class="checkbox" type="checkbox" id="robot" required>
+      <label  class="checkbox" for="robot">I am not a robot.</label>
+</div>
+      <input class="btn" type="submit" name=submit"" value="SEND">
+
+    </form>
+  </body>
+</html>

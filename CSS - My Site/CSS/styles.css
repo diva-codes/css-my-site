@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sofia', cursive;
+  background-color: #fff6f0;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: #191919;
+}
+
+button {
+background-color: #F5B591;
+border: none;
+color: #EAF6F6;
+text-decoration: none;
+border-radius: 10px 10px 10px 10px;
+font-size: 1.1rem;
+height: 30px;
+width: 150px;
+margin: 30px auto 20px;
+font-family: verdana;
+font-weight: normal;
+}
+
+button:hover {
+  background-color: #AF4242;
+  color: #ffebd9;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.bottom-container a:hover {
+  color: #EAF6F6;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 4.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Merienda', cursive;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #66BFBF;
+}
+
+#h2 {
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 4%;
+  border-width: 7px;
+  color: #a49c98;
+  margin: 100px auto;
+
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mntn {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.top-container {
+  background-color: #ffebd9;
+  position: relative;
+  padding-top: 100px;
+}
+
+#profile-pic {
+  width: 13%;
+  border-radius: 50%;
+  margin-top: 60px;
+}
+
+.translator-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 100px;
+
+}
+
+.webdev-pic {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.tryout {
+  text-align: center;
+}
+
+.contact-me {
+    margin: 0 35% 70px 35%;
+    line-height: 2;
+}
+
+
+.bottom-container a {
+  color: #11999E;
+  margin: 10px 20px;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #F5B591;
+  padding: 30px 0 20px;
+  margin: 0;
+  border-style: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+
+}
+
+.skills h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.transl {
+  text-align: left;
+}
+
+.webdev {
+  text-align: right;
+}
+
+/* THIS IS THE CSS FOR THE CONTACT-ME PAGE: */
+
+.first-label {
+  padding-top: 80px;
+}
+
+form {
+  padding-bottom: 50px;
+}
+
+form label {
+  display: block;
+  font-size: 1.5rem;
+  margin: 3px auto 3px auto;
+  color: #11999E;
+}
+
+form input {
+  display: block;
+  margin: 5px auto 20px auto;
+}
+
+.checkbox-div, .radio-div {
+  display: block;
+}
+
+.radio-buttons {
+  display: inline;
+  font-size: 1rem;
+}
+.checkbox {
+  display: inline;
+  font-size: 1rem;
+
+}
+
+textarea {
+width: 25%;
+border: 1.5px solid #e58a8a;
+border-radius: 5px;
+
+
+}
+
+input[type="text"], input[type="email"] {
+  width: 200px;
+  padding: 5px;
+  border: 1.5px solid #e58a8a;
+  border-radius: 5px;
+
+}
+
+.btn {
+background-color: #AF4242;
+border: none;
+color: #EAF6F6;
+text-decoration: none;
+border-radius: 10px 10px 10px 10px;
+font-size: 1.1rem;
+height: 30px;
+width: 150px;
+margin: 30px auto 20px;
+font-family: verdana;
+}
+
+.btn:hover {
+  background-color: #F5B591;
+  color: #11999E;
+}
+
+.contact-body .top-cloud, .contact-body .bottom-cloud {
+  opacity: .5;
+}
